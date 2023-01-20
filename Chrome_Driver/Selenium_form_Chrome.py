@@ -23,14 +23,14 @@ try:
 
     email_input = driver.find_element("id", "index_email")
     email_input.clear()
-    email_input.send_keys("79117357562")
+    email_input.send_keys("**********")
     # time.sleep(2)
     # email_input.send_keys(Keys.ENTER)
     # time.sleep(10)
 
     password_input = driver.find_element("id", "index_pass")
     password_input.clear()
-    password_input.send_keys("21729396HrocncnN")
+    password_input.send_keys("*************")
     time.sleep(1)
     password_input.send_keys(Keys.ENTER)
     time.sleep(10)
